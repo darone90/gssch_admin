@@ -1,4 +1,7 @@
 import { createI18n } from 'vue-i18n'
+import navigationPL from '~/locale/pl/navigation.json'
+import loginPL from '~/locale/pl/login.json'
+import errorPL from '~/locale/pl/error.json'
 
 export default defineNuxtPlugin((nuxtApp) => {
   const i18n = createI18n({
@@ -7,7 +10,9 @@ export default defineNuxtPlugin((nuxtApp) => {
     locale: 'pl',
     messages: {
       pl: {
-        hello: 'Siemano!!!!!'
+        navigation: navigationPL,
+        login: loginPL,
+        error: errorPL
       }
     }
   })

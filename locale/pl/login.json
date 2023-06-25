@@ -1,0 +1,7 @@
+{
+  "logging": "Logowanie",
+  "userName": "Login",
+  "password": "Hasło",
+  "login": "Zaloguj",
+  "login or password is not correct": "Niepoprawny login lub hasło"
+}

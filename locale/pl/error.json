@@ -1,0 +1,8 @@
+{
+  "undefined": "Nieoczekiwany błąd servera",
+  "errorOccure": "Wystąpił błąd",
+  "AuthMiddleware": "Błąd modułu autentykacji",
+  "Page Not Found: /": "Nie można odnaleźć strony",
+  "ContactDeveloper": "Jeśli błąd będzie się powtarzać skontaktuj się z developerem",
+  "returnToLoginPage": "Powrót na stronę główną"
+}

@@ -1,13 +1,8 @@
 <template>
   <div class="Main">
-    <h1>Statystyki</h1>
+    <h1>Zarząd</h1>
   </div>
 </template>
-<script setup lang="ts">
-definePageMeta({
-  middleware: ['is-not-auth']
-});
-</script>
 <style lang="scss" scoped>
     .Main {
         margin-left: 40rem;
