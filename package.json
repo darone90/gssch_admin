@@ -14,10 +14,20 @@
     "nuxt": "^3.5.0",
     "sass": "^1.62.1",
     "vue-i18n": "^9.2.2",
-    "vuetify": "^3.2.5"
+    "vuetify": "^3.3.2"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
-    "css-loader": "^6.7.4"
+    "@tiptap/extension-image": "^2.1.11",
+    "@tiptap/extension-subscript": "^2.1.11",
+    "@tiptap/extension-superscript": "^2.1.11",
+    "@tiptap/extension-text-align": "^2.1.11",
+    "@tiptap/extension-underline": "^2.1.11",
+    "@tiptap/starter-kit": "^2.1.11",
+    "@tiptap/vue-3": "^2.1.11",
+    "css-loader": "^6.7.4",
+    "defu": "^6.1.2",
+    "pinia": "^2.1.4",
+    "remixicon": "^3.5.0"
   }
 }

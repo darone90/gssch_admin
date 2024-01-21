@@ -6,6 +6,7 @@ class User {
   constructor(api:string) {
     this.axios = axios.create({
       baseURL: api + '/users',
+      withCredentials: true
     })
   }
   async authMe():Promise<AuthDTO> {

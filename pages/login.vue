@@ -12,12 +12,20 @@
   </div>
 </template>
 <script setup lang="ts">
+import { useI18n } from "vue-i18n";
 import { AuthDTO } from '~/api/DTO';
+
+const { t } = useI18n();
+
+useHead({
+  title: t('index.login_title')
+})
 
 definePageMeta({
   layout: 'login',
   middleware: ['is-auth']
 });
+
 const { $api }:any = useNuxtApp();
 
 const username = ref<string>('');
@@ -25,6 +33,7 @@ const password = ref<string>('');
 const message = ref<string>('');
 
 const login = async () => {
+  message.value = '';  
   const response:AuthDTO = await $api.user.login(username.value, password.value);
   if(response.login) {
     navigateTo('/')

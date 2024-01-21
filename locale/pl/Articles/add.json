@@ -1,0 +1,12 @@
+{
+  "addArticle" : "Dodaj artykuł",
+  "basicInformations": "Podstawowe informacje",
+  "date": "Data",
+  "mainImage": "Zdjęcie główne",
+  "addImage": "Dodaj zdjęcie",
+  "add": "Dodaj",
+  "remove": "Usuń",
+  "replace": "Zamień",
+  "articleContent": "Treść artykułu",
+  "save": "zapisz"
+}

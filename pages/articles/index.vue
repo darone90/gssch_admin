@@ -1,10 +1,16 @@
 <template>
   <div class="Main">
-    <h1>Artykuły</h1>
+    <PagesArticlesList />
   </div>
 </template>
+
+<script setup lang="ts">
+
+</script>
+
 <style lang="scss" scoped>
     .Main {
-        margin-left: 40rem;
+      margin-left: 2%;
+      width:90%;
     }
 </style>

@@ -6,5 +6,8 @@ export default defineNuxtConfig({
     public: {
       api: process.env.SERVICE_URL
     }
-  }
+  },
+  css: [
+    'remixicon/fonts/remixicon.css',
+  ]
 })
